@@ -1,5 +1,5 @@
-Summary:	gnuboy a Nintendo GameBoy Color emulator
-Summary(pl):	gnuboy jest emulatorem Nintendo GameBoy
+Summary:	gnuboy - a Nintendo GameBoy Color emulator
+Summary(pl):	gnuboy - emulator platformy Nintendo GameBoy Color
 Name:		gnuboy
 Version:	1.0.3
 Release:	1
@@ -7,7 +7,7 @@ License:	GPL
 Group:		Applications/Emulators
 Source0:	http://gnuboy.unix-fu.org/src/%{name}-%{version}.tar.gz
 # Source0-md5:	9947162a208ebfe699a1bfe98c437ac3
-URL:		http://gnuboy.unix-fu.org
+URL:		http://gnuboy.unix-fu.org/
 BuildRequires:	SDL-devel >= 1.2.0
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
