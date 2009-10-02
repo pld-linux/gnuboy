@@ -1,0 +1,11 @@
+--- gnuboy-1.0.3/configure.in~	2001-09-24 03:09:31.000000000 +0200
++++ gnuboy-1.0.3/configure.in	2009-10-02 19:02:20.000000000 +0200
+@@ -209,7 +209,7 @@
+ #2.9*|3.*)
+ CFLAGS="$CFLAGS -fstrength-reduce -fthread-jumps \
+  -fcse-follow-jumps -fcse-skip-blocks -frerun-cse-after-loop \
+- -fexpensive-optimizations -fforce-mem -fforce-addr"
++ -fexpensive-optimizations -fforce-addr"
+ #;;
+ #*)
+ #AC_MSG_WARN(your compiler is too old for fancy optimizations)
