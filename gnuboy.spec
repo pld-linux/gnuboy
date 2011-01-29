@@ -9,8 +9,9 @@ Source0:	http://gnuboy.unix-fu.org/src/%{name}-%{version}.tar.gz
 # Source0-md5:	9947162a208ebfe699a1bfe98c437ac3
 Patch0:		%{name}-gcc.patch
 URL:		http://gnuboy.unix-fu.org/
-BuildRequires:	autoconf
 BuildRequires:	SDL-devel >= 1.2.0
+BuildRequires:	autoconf
+BuildRequires:	xorg-lib-libXext-devel
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
